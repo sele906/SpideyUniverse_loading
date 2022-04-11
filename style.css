@@ -1,0 +1,78 @@
+* {
+  margin: auto;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.page {
+  text-align: center;
+}
+
+#gamescreen {
+  visibility: hidden;
+}
+
+#canvas {
+  display: inline;
+}
+
+.ErrorMessage {
+  width: 650px;
+  padding: 0 20px 20px 20px;
+  
+  text-align: left;
+}
+
+h1 {
+  padding: 15px 0;
+  color: rgb(81,130,177);
+}
+
+p {
+  padding: 5px 0;
+}
+
+#container {
+  width: 650px;
+  display: flex;
+  justify-content: start; 
+  padding: 0 20px;
+}
+
+#content1 {
+  text-align: justify;
+  margin: 10px 10px 10px 0;
+  padding: 0;
+  color: rgb(138, 136, 136);
+}
+
+button {
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(226, 226, 226);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(201, 200, 200);
+}
+
+#content2 {
+  margin: 10px;
+}
+
+#content3 {
+  margin: 10px;
+  visibility: hidden;
+}
+
+
+
+
